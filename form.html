@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        div{
+            height: 770px;
+            width: 450px;
+            border: 3px solid purple;
+            margin: 40px 0px 0px 730px;
+            display: inline-block;
+            color: white;
+            font-size: 23px;
+            text-align: center;
+        }
+        img{
+            height: 250px;
+            width: 450px;
+        }
+        body{
+            background-image: url("bgimg.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        input{
+            border: none;
+            background-color: rgb(108, 70, 158);
+            width: 250px;
+            height: 20px;
+            border-radius: 30px;
+            font-size: 20px;
+            color: white;
+        }
+        input:focus{
+            border-bottom: 2px solid palevioletred;
+            outline: none;
+        }
+        body{
+            font-family: monospace;
+        }
+        button{
+            width: 380px;
+            height: 35px;
+            border-radius: 20px;
+            background-color: rgb(153, 77, 204);
+            border: 2px solid white;
+            font-size: 20px;
+            color: white;
+            font-family: cursive;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: pink;
+            color: black;
+            border: 2px solid black;
+        }
+        h1{
+            text-align: center;
+            font-family: cursive;
+            color: white;
+            text-decoration: underline;
+            text-shadow: 10px -20px 2px;
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h1>SIGN UP</h1>
+    <div>
+        <img src="img.png" alt="">
+        Username <br><input type="text" name="" id="" required><br><br>
+        Password <br><input type="password" name="" id="" required><br><br>
+        Confirm Password <br><input type="password" name="" id="" required><br><br>
+        Date Of Birth <br><input type="date" name="" id="" required><br><br>
+        Gender <br><br>Male<input type="radio" name="Gender" id=""><br>
+        Female<input type="radio" name="Gender" id=""><br><br>
+        <button>Sign Up</button>
+    </div>
+</body>
+</html>
